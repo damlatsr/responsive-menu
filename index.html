@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Case - Responsive Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <a href="#" onclick="closeMenu()" class="close-toggle-btn link">✕</a>
+        <ul>
+            <li>WHO WE ARE</li>
+          </ul>
+          <hr>
+          <ul>
+            <li>WHAT WE DO</li>
+              <ul>
+                <li>Rings</li>
+                <li>Bracelets</li>
+                <li>Necklaces</li>
+              </ul>
+            </li>
+          </ul>
+          <hr>
+          <ul>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>Contact Us</li>
+          </ul>
+          <hr>
+          <ul>
+            <li>
+                <u>Buy Now</u>
+            </li>
+          </ul>
+          <hr>
+    </div>
+    <div class="header">
+        <ul class="header-links">
+            <li class="nav-item"><a href="tel:02126739821">0212 673 98 21</a></li>
+            <li class="nav-item"><a href="mailto:info@maternal.net">info@maternal.net</a></li>
+        </ul>
+        <ul class="header-links">
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><a href="#">Careers</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <nav class="navbar">
+        <a href="/#" class="logo">
+            <img src="assets/maternal-logo.png" alt="Maternal" title="Maternal">
+        </a>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="#">WHO WE ARE</a></li>
+            <li class="nav-item"><a href="#">WHAT WE DO</a></li>
+            <li class="nav-item border"><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="toggle">
+            <span class="menu-icon" onclick="openMenu()">≡</span>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="row">
+            <div class="col pl-10 pr-10">
+                <h1>Rosemary<br/>New Collection</h1>
+                <h2>
+                    This collection is made of brass and pearls.<br />
+                    The bracelet has a carved texture. The rings are connected to each other.
+                </h2>
+                <a href="#" class="border p-1 d-inline mt-1 mb-10 btn-buy link">
+                    BUY NOW
+                </a>
+            </div>
+            <div class="col">
+                <img src="assets/hp-photo.jpg" alt="Rosemary New Collection" title="Rosemary New Collection"
+                    class="title-img">
+            </div>
+        </div>
+    </div>
+    <script
+			  src="jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
