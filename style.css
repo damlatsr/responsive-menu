@@ -95,6 +95,15 @@ nav {
         margin: 5%;
     }
 }
+hr {
+    padding-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+}
 
 .p-1 {
     padding: 1%;
@@ -162,15 +171,7 @@ h2 {
     padding-right: 10%;
 }
 @media screen and (max-width: 768px) {
-    hr {
-        padding-bottom: 1em;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 0.5px;
-    }
+   
     .menu {
         padding: 25% 10%;
         position: fixed;
