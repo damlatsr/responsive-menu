@@ -214,7 +214,18 @@ h2 {
         text-align: left;
     }
 
-
+    .buton {
+        background-color: white; 
+                border-radius: 50%; 
+                height: 7%;
+                width: 7%;
+                border: none;
+                padding: 20px;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                cursor: pointer;
+    }
     .menu-icon {
         cursor: pointer;
     }
