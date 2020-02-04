@@ -218,13 +218,18 @@ h2 {
                 background-color: white; 
                 border-radius: 50%; 
                 border: none;
-                padding: 20px;
+                padding: 5px;
                 text-decoration: none;
                 display: inline-block;
-                margin: 4px 2px;
+                margin: 2px 1px;
                 cursor: pointer;
-                height: 10%;
-                width: 10%;
+                height: 30px;
+                width: 30px
+    }
+    .btn-img {
+        height: 25px;
+                width: 25px;
+                : center;
     }
     .menu-icon {
         cursor: pointer;
