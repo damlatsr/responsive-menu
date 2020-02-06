@@ -1,11 +1,11 @@
 const closeMenu = () => {
-    $('.menu').hide({duration: 400})
+    $('.mobile-menu-content').hide({duration: 400})
   //  $('.content').show({duration: 400})
    // $('.navbar').show({duration: 400})
 }
 
 const openMenu = () => {
-    $('.menu').show({duration: 400})
+    $('.mobile-menu-content').show({duration: 400})
   //  $('.content').hide()
   //  $('.navbar').hide()
 }
