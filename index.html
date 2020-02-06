@@ -1,110 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Case - Responsive Menu</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
 
-<body>
-   
-    <div class="menu">
-        <a href="#" onclick="closeMenu()" class="close-toggle-btn link">✕</a>
-        <ul>
-            <li>WHO WE ARE</li>
-          </ul>
-          <hr>
+  </head>
+
+  <body>
+    <div class="menu mobile-menu-content">
+      <a href="#" onclick="closeMenu()" class="close-toggle-btn link">✕</a>
+      <ul class=mobile-menu-list>
+      <li>
+          <a href="#">WHO WE ARE</a>
+        </li>
+      <li>
+          <a href="#">WHAT WE DO</a>
           <ul>
-            <li>WHAT WE DO</li>
-              <ul>
-                <li>Rings</li>
-                <li>Bracelets</li>
-                <li>Necklaces</li>
-              </ul>
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Bracelets</a></li>
+            <li><a href="#">Necklaces</a></li>
+          </ul>
+        </li>
+      <li>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </li>
+      <li>
+          <div class="mobile-submenu">
+            <a href="#" id="buy-now">Buy Now</a>
+          </div>
+        </li>
+        <li>
+          <div class="mobile-submenu">
+            <a href="tel:+90 212 673 98 21 ">+90 212 673 98 21</a>
+            <a href="#">info@maternal.net</a>
+          </div>
+        </li>
+        <li>
+          <ul class="mobile-submenu" id="social-menu">
+            <li>
+              <a href="#">
+                <img src="assets/gplus-black.png" >
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/facebook-black.png">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/twitter-black.png" >
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/instagram-black.png" >
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/linkedinblack.png" >
+                </i>
+              </a>
             </li>
           </ul>
-          <hr>
-          <ul>
-            <li>Blog</li>
-            <li>Careers</li>
-            <li>Contact Us</li>
-          </ul>
-          <hr>
-          <ul>
-            <li>
-                <u>Buy Now</u>
-            </li>
-          </ul>
-          <hr>
-          <ul>
-            <li>
-                <pre>0212 673 98 21     info@maternal.net</pre>
-            </li>
-          </ul>
-          <hr>
-          <ul>
-            <li>
-                
-                <input class="buton" type="image" src="assets/gplus-black.png" value="submit" width="50px">
-                <input class="buton" type="image" src="assets/facebook-black.png" value="submit" width="50px">
-                <input class="buton" type="image" src="assets/twitter-black.png" value="submit" width="50px">
-                <input class="buton" type="image" src="assets/instagram-black.png" value="submit" width="50px">
-                <input class="buton" type="image" src="assets/linkedinblack.png" value="submit" width="50px">
-                
-                
-             </li>  
-          </ul>
+          <!-- <input
+            class="buton"
+            type="image"
+            src="assets/gplus-black.png"
+            value="submit"
+            width="50px"
+          />
+          <input
+            class="buton"
+            type="image"
+            src="assets/facebook-black.png"
+            value="submit"
+            width="50px"
+          />
+         
+          <input
+            class="buton"
+            type="image"
+            src="assets/twitter-black.png"
+            value="submit"
+            width="50px"
+          />
+          <input
+            class="buton"
+            type="image"
+            src="assets/instagram-black.png"
+            value="submit"
+            width="50px"
+          />
+          <input
+            class="buton"
+            type="image"
+            src="assets/linkedinblack.png"
+            value="submit"
+            width="50px"
+          /> -->
+        </li>
+      </ul>
     </div>
     <div class="header">
-        <ul class="header-links">
-            <li class="nav-item"><a href="tel:02126739821">0212 673 98 21</a></li>
-            <li class="nav-item"><a href="mailto:info@maternal.net">info@maternal.net</a></li>
-        </ul>
-        <ul class="header-links">
-            <li class="nav-item"><a href="#">Blog</a></li>
-            <li class="nav-item"><a href="#">Careers</a></li>
-            <li class="nav-item"><a href="#">Contact Us</a></li>
-        </ul>
+      <ul class="header-links">
+        <li class="nav-item"><a href="tel:02126739821">0212 673 98 21</a></li>
+        <li class="nav-item">
+          <a href="mailto:info@maternal.net">info@maternal.net</a>
+        </li>
+      </ul>
+      <ul class="header-links">
+        <li class="nav-item"><a href="#">Blog</a></li>
+        <li class="nav-item"><a href="#">Careers</a></li>
+        <li class="nav-item"><a href="#">Contact Us</a></li>
+      </ul>
     </div>
     <nav class="navbar">
-        <a href="/#" class="logo">
-            <img src="assets/maternal-logo.png" alt="Maternal" title="Maternal">
-        </a>
-        <ul class="nav-links">
-            <li class="nav-item"><a href="#">WHO WE ARE</a></li>
-            <li class="nav-item"><a href="#">WHAT WE DO</a></li>
-            <li class="nav-item border"><a href="#">CONTACT</a></li>
-        </ul>
-        <div class="toggle">
-            <span class="menu-icon" onclick="openMenu()">≡</span>
-        </div>
+      <a href="/#" class="logo">
+        <img src="assets/maternal-logo.png" alt="Maternal" title="Maternal" />
+      </a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#">WHO WE ARE</a></li>
+        <li class="nav-item"><a href="#">WHAT WE DO</a></li>
+        <li class="nav-item border"><a href="#">CONTACT</a></li>
+      </ul>
+      <div class="toggle">
+        <span class="menu-icon" onclick="openMenu()">≡</span>
+      </div>
     </nav>
     <div class="content">
-        <div class="row">
-            <div class="col pl-10 pr-10">
-                <h1>Rosemary<br/>New Collection</h1>
-                <h2>
-                    This collection is made of brass and pearls.<br />
-                    The bracelet has a carved texture. The rings are connected to each other.
-                </h2>
-                <a href="#" class=" nav-item border p-1 d-inline mt-1 mb-10 btn-buy link">
-                    BUY NOW
-                </a>
-            </div>
-            <div class="col">
-                <img src="assets/hp-photo.jpg" alt="Rosemary New Collection" title="Rosemary New Collection"
-                    class="title-img">
-            </div>
+      <div class="row">
+        <div class="col pl-10 pr-10">
+          <h1>Rosemary<br />New Collection</h1>
+          <h2>
+            This collection is made of brass and pearls.<br />
+            The bracelet has a carved texture. The rings are connected to each
+            other.
+          </h2>
+          <a
+            href="#"
+            class=" nav-item border p-1 d-inline mt-1 mb-10 btn-buy link"
+          >
+            BUY NOW
+          </a>
         </div>
+        <div class="col">
+          <img
+            src="assets/hp-photo.jpg"
+            alt="Rosemary New Collection"
+            title="Rosemary New Collection"
+            class="title-img"
+          />
+        </div>
+      </div>
     </div>
-    <script
-			  src="jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
