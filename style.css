@@ -38,20 +38,16 @@ h2 {
   font-weight: normal;
   font-size: 14pt;
 }
+.logo-container{
+    height: 80px;
+}
 
 .logo-container img {
-  width: 20%;
-  padding: 20px 0;
+  height: 100%;
   display: block;
 }
 
-.nav-links span a {
-  list-style: none;
-  display: inline-block;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: inherit;
-}
+
 
 .row-left {
   float: left;
@@ -86,7 +82,7 @@ h2 {
   .reverse-mobile {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .dik-12-6 {
@@ -153,8 +149,10 @@ h2 {
 .main-menu-container {
   line-height: 80px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background-color: rgb(126, 123, 123);
+  
   z-index: 10;
+  float: left;
+  width: 100%;
 }
 
 .top-menu-container a {
@@ -268,7 +266,6 @@ a {
   }
   .logo-container a img {
     height: 100%;
-    width: 20px;
     padding: 20px 0;
     display: block;
   }
@@ -397,6 +394,13 @@ a {
 }
 
 /*
+.nav-links span a {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: inherit;
+}
 
 .logo {
     display: inline-block;
