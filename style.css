@@ -106,7 +106,6 @@ h2 {
   .main-content {
     margin-top: 50px;
   }
-
 }
 .dik-o-6 {
   width: 50%;
@@ -393,8 +392,8 @@ a {
   font-size: 20px;
 }
 #social-menu li a i:hover {
-    background-color: #f0cf89;
-    border: 1px solid #fdc64b !important;
+  background-color: #f0cf89;
+  border: 1px solid #fdc64b !important;
 }
 
 /*
