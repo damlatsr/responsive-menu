@@ -65,6 +65,12 @@ h2 {
 .menu-list li a:hover {
   border-bottom: 3px solid black;
 }
+.reverse-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 @media screen and (min-width: 768px) {
   .toggle {
     display: none;
@@ -115,8 +121,8 @@ h2 {
 }
 .reverse-right {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   order: 1;
 }
 
@@ -176,24 +182,19 @@ li:last-child .menu-link {
   text-align: center;
   font-size: 12px;
   line-height: 24px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .cta:hover {
   background-color: #fdc64b;
   border: 3px solid #fdc64b !important;
 }
-.reverse-mobile {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .large-subtitle {
   font-size: 1.4em;
   font-weight: 500;
   line-height: 1.4em;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
